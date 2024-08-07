@@ -29,21 +29,20 @@ The annotation file is a text file with multiple lines, and each line indicates 
 
 Here we provide some off-the-shelf pre-trained checkpoints of our models in the following tables. More checkpoints will be provided soon.
 
-*#Frame = #input_frame x #spatial crops x #temporal clips*
 #### Kinetics-400
 
-| Backbone |#Frame |  Top-1 Acc.(%) | Download |
+| Backbone |#Frame x crops x clips |  Top-1 Acc.(%) | Download |
 |:------------:|:-------------------:|:------------------:|:-----------------:|
 | ViT-B/16 | 8x3x4 | 83.9 | [Log](https://huggingface.co/BBLY9413/TDS-CLIP/tree/main) \ [Checkpoint](https://huggingface.co/BBLY9413/TDS-CLIP/tree/main) |
 
 #### Something-Something V1
 
-| Backbone |#Frame |  Top-1 Acc.(%) | Download |
+| Backbone |#Frame x crops x clips |  Top-1 Acc.(%) | Download |
 |:------------:|:-------------------:|:------------------:|:-----------------:|
 | ViT-B/16 | 8x3x2 | 60.1 | [Log](https://huggingface.co/BBLY9413/TDS-CLIP/tree/main) \ [Checkpoint](https://huggingface.co/BBLY9413/TDS-CLIP/tree/main) |
 #### Something-Something V2
 
-| Backbone |#Frame |  Top-1 Acc.(%) | Download |
+| Backbone |#Frame x crops x clips |  Top-1 Acc.(%) | Download |
 |:------------:|:-------------------:|:------------------:|:-----------------:|
 | ViT-B/16 | 8x3x2 | 71.8 | [Log](https://huggingface.co/BBLY9413/TDS-CLIP/tree/main) \ [Checkpoint](https://huggingface.co/BBLY9413/TDS-CLIP/tree/main) |
 | ViT-L/14 | 8x3x2 | 73.4 | [Log](https://huggingface.co/BBLY9413/TDS-CLIP/tree/main) \ [Checkpoint](https://huggingface.co/BBLY9413/TDS-CLIP/tree/main) |
